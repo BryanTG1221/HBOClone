@@ -1,4 +1,56 @@
 .Header__Main {
     width: 100vw;
     height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.Header__Content {
+    width: 1366px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 100px;
+}
+
+.info1 {
+    font-size: 20px;
+    margin: 0;
+}
+
+.titleMovie {
+    max-width: 12ch;
+    font-size: 80px;
+    margin: 0;
+}
+
+.info2 {
+    font-size: 30px;
+    margin: 0;
+}
+
+.IMDB-Content {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.calificacion {
+    display: inline;
+    font-size: 24px;
+}
+
+.btnTrailer {
+    width: 160px;
+    height: 54px;
+    border-radius: 10px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
 }
