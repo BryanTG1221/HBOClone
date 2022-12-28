@@ -1,0 +1,7 @@
+.Options__Content {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    font-size: 20px;
+    color: white;
+}

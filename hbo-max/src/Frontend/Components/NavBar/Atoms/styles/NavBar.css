@@ -1,0 +1,17 @@
+.NavBar__Main {
+    width: 100vw;
+    height: 82px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.NavBar__Content {
+    width: 1366px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(5px);
+    border-radius: 20px;
+}
