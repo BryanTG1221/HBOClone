@@ -15,4 +15,26 @@ body {
     background-repeat: no-repeat;
 }
 
+.popularCollections__Main {
+    width: 100vw;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+}
+
+.popularCollections__Content {
+    width: 1366px;
+}
+
+.popularCollections__Content {
+    color: white;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.MoviesRow {
+    display: flex;
+    gap: 10px;
+}
 

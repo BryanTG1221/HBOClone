@@ -1,13 +1,20 @@
+import { Route, Routes } from 'react-router-dom';
+
 import './Styles/App.css'
 import { NavBar } from './Components/NavBar/NavBar';
-import { Header } from './Components/Header/Header';
+import { HomePage } from './Components/homepage';
+import { FinalPage } from './Components/FinalPage';
+
 
 export function App () {
     return (
         <div className="App__Main">
             <div className="App__Content">
                 <NavBar />
-                <Header />
+                <Routes>
+                    <Route path='/' element= { <HomePage /> }/>
+                    <Route path='/PYB' element= { <FinalPage /> }/>
+                </Routes>
             </div>
         </div>
     )
