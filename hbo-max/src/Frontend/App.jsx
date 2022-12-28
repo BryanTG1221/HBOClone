@@ -8,7 +8,7 @@ import { FinalPage } from './Components/FinalPage';
 
 export function App () {
     return (
-        <div className="App__Main">
+        <div className="App__Main" id='MainWallpapaer'>
             <div className="App__Content">
                 <NavBar />
                 <Routes>
